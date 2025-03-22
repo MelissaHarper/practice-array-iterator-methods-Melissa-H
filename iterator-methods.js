@@ -22,6 +22,14 @@ let cities = ["Seattle", "Nashville", "Sacramento", "St. Louis", "Toronto"];
 cities.forEach(city => console.log(city.toUpperCase()));
 
 // Output for the cities array will still be ["Seattle", "Nashville", "Sacramento", "St. Louis", "Toronto"]
+/*
+The output to the console is 
+SEATTLE
+NASHVILLE
+SACRAMENTO
+ST. LOUIS
+TORONTO
+*/
 
 /**
  * Task 2: Transforming with map()
@@ -38,7 +46,7 @@ let squares = numbers.map(num => num ** 2);
 
 console.log("The elements of the array 'numbers' when squared squared are", squares);
 
-// Output for the new array will be [ 1, 4, 9, 16, 25 ]
+// Output for the new array is [ 1, 4, 9, 16, 25 ]
 
 /**
  * Task 3: Filtering with filter()
@@ -56,7 +64,7 @@ let highScores = scores.filter(score => score >= 80);
 
 console.log("The high scores are", highScores);
 
-// Output for the new array will be [ 85, 90, 100 ]
+// Output for the new array is [ 85, 90, 100 ]
 
 /**
  * Task 4: Finding with find() and findIndex()
